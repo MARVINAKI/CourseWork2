@@ -1,6 +1,7 @@
 package com.example.coursework2.constant;
 
 public enum Department {
+
 	WORKSHOP("Цех"),
 	SHOP("Магазин"),
 	BOOKKEEPING("Бухгалтерия"),

@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 @Data
 @RequiredArgsConstructor
 public class AverageSalaryDTO {
+
 	private Department department;
 	private Double averageSalary;
 }

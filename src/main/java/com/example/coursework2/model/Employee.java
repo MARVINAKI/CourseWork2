@@ -14,6 +14,7 @@ import java.util.Objects;
 @Data
 @RequiredArgsConstructor
 public class Employee {
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id")
