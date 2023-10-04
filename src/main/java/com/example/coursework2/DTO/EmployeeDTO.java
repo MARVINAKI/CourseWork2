@@ -7,7 +7,6 @@ import lombok.RequiredArgsConstructor;
 @Data
 @RequiredArgsConstructor
 public class EmployeeDTO {
-
 	private String name;
 	private Department department;
 	private Double salary;

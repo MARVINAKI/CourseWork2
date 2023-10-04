@@ -11,7 +11,6 @@ import java.util.Optional;
 
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
-
 	/**
 	 * Поиск сотрудника по имени и отделу
 	 *

@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 @Data
 @RequiredArgsConstructor
 public class MaxSalaryDTO {
+
 	private Department department;
 	private Double maxSalary;
 }
